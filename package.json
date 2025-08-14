@@ -1,5 +1,13 @@
 {
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc",
+    "start:prod": "node dist/bot.js",
+    "start-habr": "nodemon index.js"
+  },
   "devDependencies": {
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
   "dependencies": {
