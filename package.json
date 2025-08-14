@@ -3,7 +3,7 @@
     "start": "ts-node src/bot.ts",
     "build": "tsc",
     "start:prod": "node dist/bot.js",
-    "start-habr": "nodemon index.js"
+    "start-habr": "nodemon dist/bot.js"
   },
   "devDependencies": {
     "@types/node": "^24.2.1",
